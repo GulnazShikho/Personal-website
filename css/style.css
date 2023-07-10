@@ -32,6 +32,9 @@ body{
     color: #ffffff;
     border:none;
 }
+.coustome-buuton:focus {
+    color: #ffffff !important;
+}
 .rounded-navbar{
     background-color: #cccccc;
     background:linear-gradient(90deg,#9832AF 0%, #e4b6ef 100%);
@@ -45,6 +48,10 @@ body{
     
 }
 .nav-link:hover{
+    font-size: 23px;
+    color: #ffffff;
+}
+.nav-link:focus{
     font-size: 24px;
     color: #ffffff;
 }
@@ -67,6 +74,9 @@ body{
     background:linear-gradient(90deg,#c352dc 0%, #e4b6ef 100%);
     color: #ffffff;
 }
+.coustome-cv-buuton:focus{
+    color: #ffffff !important;
+}
 .custome-input{
    font-size: 14px;
 }
@@ -82,14 +92,6 @@ body{
     background-color:#f4f4ff ;
 }
 
-
-    
-.img__wrap {
-    position: relative;
-    height: 200px;
-    width: 257px;
-  }
-  
 
 
 
